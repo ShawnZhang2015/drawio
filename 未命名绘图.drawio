@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-10T14:48:27.230Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="ML-vlQ5f2ljsDBQe_aM3" version="13.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-10T14:58:13.180Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="bYJmulxpd6zX_KEX5898" version="13.9.1" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="782" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="920" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -45,7 +45,7 @@
         <mxCell id="Dos0veMNOK6ICCDVFZT--114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dos0veMNOK6ICCDVFZT--104" target="Dos0veMNOK6ICCDVFZT--113">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Dos0veMNOK6ICCDVFZT--104" value="用户协议&lt;br&gt;&amp;amp;&lt;br&gt;手机号实名认证" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Dos0veMNOK6ICCDVFZT--104" value="用户协议&lt;br&gt;&amp;amp;&lt;br&gt;手机号三要素&lt;br&gt;认证" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Dos0veMNOK6ICCDVFZT--109" value="注册Cocos帐号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -95,7 +95,7 @@
             <mxPoint x="530" y="686" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Dos0veMNOK6ICCDVFZT--115" value="填写资源信息&lt;br&gt;名字、分类、介绍&lt;br&gt;......" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Dos0veMNOK6ICCDVFZT--115" value="填写资源信息&lt;br&gt;名字、分类、介绍&lt;br&gt;......&lt;br&gt;上传资源zip包" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="350" y="730" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Dos0veMNOK6ICCDVFZT--124" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dos0veMNOK6ICCDVFZT--117" target="Dos0veMNOK6ICCDVFZT--123">
@@ -117,25 +117,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Dos0veMNOK6ICCDVFZT--131" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Dos0veMNOK6ICCDVFZT--137" target="Dos0veMNOK6ICCDVFZT--115">
+        <mxCell id="Dos0veMNOK6ICCDVFZT--144" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dos0veMNOK6ICCDVFZT--123">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="260" y="760" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="260" y="1200" />
-              <mxPoint x="260" y="760" />
-            </Array>
+            <mxPoint x="580" y="1035" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Dos0veMNOK6ICCDVFZT--132" value="不通过&amp;amp;理由&lt;br&gt;重新调整" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dos0veMNOK6ICCDVFZT--131">
-          <mxGeometry x="-0.2667" y="2" relative="1" as="geometry">
-            <mxPoint x="2" y="-74" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Dos0veMNOK6ICCDVFZT--123" value="是否实名&lt;br&gt;认证" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="370" y="1000" width="80" height="80" as="geometry" />
+        <mxCell id="Dos0veMNOK6ICCDVFZT--123" value="系统检查&lt;br&gt;是否实名&lt;br&gt;认证？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="335" y="990" width="150" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Dos0veMNOK6ICCDVFZT--129" value="邮件通知作者&lt;br&gt;&amp;amp;&lt;br&gt;在商店中展示" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1290" width="120" height="60" as="geometry" />
+          <mxGeometry x="350" y="1440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Dos0veMNOK6ICCDVFZT--138" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dos0veMNOK6ICCDVFZT--137" target="Dos0veMNOK6ICCDVFZT--129">
           <mxGeometry relative="1" as="geometry" />
@@ -149,13 +140,84 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Dos0veMNOK6ICCDVFZT--137" value="审核" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="370" y="1160" width="80" height="80" as="geometry" />
+          <mxGeometry x="370" y="1290" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Dos0veMNOK6ICCDVFZT--140" value="&lt;br&gt;1. 是否为Creator插件、工程、美术资源基本结构&lt;br&gt;2. 是否包含违法内容色情、赌博、含知名IP素材&lt;br&gt;3. 是否能正常运行&lt;br&gt;4. 文档是否真实、清楚" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;align=left;horizontal=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="540" y="1120" width="230" height="120" as="geometry" />
+          <mxGeometry x="530" y="1310" width="230" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Dos0veMNOK6ICCDVFZT--142" value="&lt;span style=&quot;&quot;&gt;用户进入&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;https://store.cocos.com&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="320" y="50" width="180" height="60" as="geometry" />
+          <mxGeometry x="323" y="50" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dos0veMNOK6ICCDVFZT--153" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dos0veMNOK6ICCDVFZT--145" target="Dos0veMNOK6ICCDVFZT--146">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="1190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="1190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dos0veMNOK6ICCDVFZT--154" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dos0veMNOK6ICCDVFZT--153">
+          <mxGeometry x="-0.6055" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dos0veMNOK6ICCDVFZT--156" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dos0veMNOK6ICCDVFZT--145">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="1035" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dos0veMNOK6ICCDVFZT--157" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dos0veMNOK6ICCDVFZT--156">
+          <mxGeometry x="0.1471" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dos0veMNOK6ICCDVFZT--145" value="&lt;span&gt;手机号三要素&lt;/span&gt;&lt;br&gt;&lt;span&gt;认证&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="580" y="987.5" width="100" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="Dos0veMNOK6ICCDVFZT--148" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dos0veMNOK6ICCDVFZT--146">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dos0veMNOK6ICCDVFZT--149" value="等待运营人员审核" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dos0veMNOK6ICCDVFZT--148">
+          <mxGeometry x="-0.2168" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dos0veMNOK6ICCDVFZT--146" value="进入审核状态" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="353" y="1160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dos0veMNOK6ICCDVFZT--150" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Dos0veMNOK6ICCDVFZT--137" target="Dos0veMNOK6ICCDVFZT--115">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="1330" as="sourcePoint" />
+            <mxPoint x="350" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="1330" />
+              <mxPoint x="260" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dos0veMNOK6ICCDVFZT--151" value="不通过&amp;amp;理由&lt;br&gt;重新调整" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dos0veMNOK6ICCDVFZT--150">
+          <mxGeometry x="-0.2667" y="2" relative="1" as="geometry">
+            <mxPoint x="2" y="-74" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dos0veMNOK6ICCDVFZT--158" value="可选择上传&lt;br&gt;身份证照片&lt;br&gt;人工认证" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1005" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dos0veMNOK6ICCDVFZT--159" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dos0veMNOK6ICCDVFZT--158" target="Dos0veMNOK6ICCDVFZT--146">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="1092.5" as="sourcePoint" />
+            <mxPoint x="490" y="1200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="820" y="1190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dos0veMNOK6ICCDVFZT--160" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Dos0veMNOK6ICCDVFZT--159">
+          <mxGeometry x="-0.6055" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" y="-27.94" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
