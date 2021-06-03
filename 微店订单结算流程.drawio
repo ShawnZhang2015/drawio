@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-03T03:48:57.115Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="aTQIXK74tb6ACdgjmqrr" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-03T08:30:27.091Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="Giay7kn4kfbckoR-h19F" version="14.6.11" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1210" dy="1157" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1037" dy="991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -21,13 +21,13 @@
         <mxCell id="PL2VfHsdXzQc7TMgbp8--1" value="选择微店&lt;br&gt;CSV订单文件" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PL2VfHsdXzQc7TMgbp8--15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PL2VfHsdXzQc7TMgbp8--3" target="PL2VfHsdXzQc7TMgbp8--13">
+        <mxCell id="PL2VfHsdXzQc7TMgbp8--15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PL2VfHsdXzQc7TMgbp8--3" target="PL2VfHsdXzQc7TMgbp8--13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PL2VfHsdXzQc7TMgbp8--3" value="方案1&lt;br&gt;&lt;br&gt;转换微店订单记录&lt;br&gt;为Store订单" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="70" y="440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PL2VfHsdXzQc7TMgbp8--14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PL2VfHsdXzQc7TMgbp8--6" target="PL2VfHsdXzQc7TMgbp8--13">
+        <mxCell id="PL2VfHsdXzQc7TMgbp8--14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PL2VfHsdXzQc7TMgbp8--6" target="PL2VfHsdXzQc7TMgbp8--13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PL2VfHsdXzQc7TMgbp8--6" value="方案2&lt;br&gt;&lt;br&gt;生成独立订单记录" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -71,6 +71,12 @@
         </mxCell>
         <mxCell id="PL2VfHsdXzQc7TMgbp8--20" value="提现银行卡" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="250" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PL2VfHsdXzQc7TMgbp8--23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PL2VfHsdXzQc7TMgbp8--22" target="PL2VfHsdXzQc7TMgbp8--1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PL2VfHsdXzQc7TMgbp8--22" value="按月导出订单&lt;br&gt;（初期可人工操作）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="170" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
